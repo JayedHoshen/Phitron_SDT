@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner_item{
+    width: 550px;
+    height: 125px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 15px;
+    background-color: black;
+    position: absolute !important;
+    left: 45%;
+    bottom: 10%;
+}
+
+.prog_item{
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(223, 221, 221, 0.555)
+}
+
+.section_title{
+    margin: 30px 0px;
+    padding: 25px 0px;
+    border-top: 1px dashed rgba(221, 156, 103, 0.562);
+    border-bottom: 1px dashed rgba(221, 156, 103, 0.562);
+    text-align: center;
+}
+
+.product_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_icon{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.shop{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.client_content{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(223, 221, 221, 0.555)
+}
+
+.social_logo{
+    background-color: #f8f8f8;
+}
+
+.touch_content .left{
+    margin: 10px 0px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(223, 221, 221, 0.555)
+}
+
+.touch_content .left .top{
+    border-radius: 10px;
+}
+
+.touch_content .left .middle{
+    background-color: #e9dfb8;
+    border-radius: 10px;
+}
+.touch_content .left .bottom{
+    background-color: #b9d0f3;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .banner{
+        position: relative;
+    }
+
+    .banner_item{
+        width: 400px;
+        position: absolute;
+        left: 8%;
+        bottom: 10%;
+    }
+
+    .bottom_content img{
+        height: 300px;
+    }
+
+    .product_content img{
+        width: 100%;
+    }
+
+    .product_content .spa{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .footer_container{
+        text-align: center;
+    }
+}

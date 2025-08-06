@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto';
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgb(205, 221, 204);
+}
+
+.nav_container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 90px;
+}
+
+.menu_container ul{
+    display: flex;
+    gap: 10px;
+}
+
+.menu_container ul li{
+    list-style: none;
+}
+
+.menu_container ul li a{
+    text-decoration: none;
+    color: #00388B;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+.menu_container ul li a:hover {
+    color: orange;
+    transition: all 0.4s linear;
+}
+
+#banner{
+    background-image: linear-gradient(45deg, rgba(197, 28, 28, 0.568), rgba(14, 163, 14, 0.774));
+    padding-top: 25px;
+}
+
+.banner_container{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.banner_container .banner_left{
+    width: 60%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.banner_left .title{
+    font-size: 50px;
+}
+
+.banner_left .title span{
+    text-shadow: 5px 5px 5px green;
+}
+
+.banner_container .banner_left h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.banner_container .banner_left p{
+    margin: 10px 0px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.banner_container .banner_left .btn{
+    padding: 10px 25px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.banner_left .hire_btn{
+    background-color: #00388B;
+    margin-top: 10px;
+}
+
+.banner_left .hire_btn:hover{
+    background-color: white;
+    color: #00388B;
+    transition: all 0.5s linear;
+}
+
+.banner_left .project_btn{
+    background-color: #54851d;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.banner_left .project_btn:hover{
+    background-color: white;
+    transition: all 0.5s linear;
+    background-image: linear-gradient(45deg, red, green);
+}
+
+.banner_container .banner_right{
+    width: 50%;
+    text-align: right;
+}
+
+.services_container {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between
+}
+
+.service_title{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px lightgreen;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.services_container .service_card{
+    width: 365px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    box-shadow: -5px -5px 10px lightgreen;
+    text-align: center;
+    color: rgb(117, 115, 115);
+}
+
+.services_container .service_card:hover{
+    box-shadow: 5px 5px 10px lightgreen;
+    transition: all 0.3s linear;
+}
+
+.service_card img{
+    width: 250px;
+    height: 250px;
+}
+
+.service_card h4{
+    font-size: 18px;
+}
+
+.service_card .service_content{
+    text-align: justify;
+    padding: 10px 20px;
+    font-weight: 300;
+}
+
+.service_card .service_btn{
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, green, red);
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.service_card .service_btn:hover{
+    background-image: linear-gradient(45deg, red, green);
+    transition: all 0.5s linear;
+}
+
+.service_card .service_btn i{
+    font-size: 20px;
+}
+
+#Contact{
+    margin: 40px 0px;
+}
+
+.form_section{
+    margin: auto;
+    text-align: center;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.7);
+    padding: 15px 0px;
+    border-radius: 20px;
+}
+
+.form_section:hover {
+     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+     transition: all 0.4s linear;
+}
+
+.form_section .form_name{
+    width: 80%;
+    padding: 20px;
+    font-size: 18px;
+    border-color: rgba(226, 233, 227, 0.7);
+    border-radius: 25px;
+    margin: 10px 0px;
+}
+
+.form_section .form_btn{
+    color: white;
+    border: none;
+    width: 200px;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    background-color: rgba(0, 128, 0, 0.63);
+}
+
+.form_section .form_btn:hover{
+    transition: all 0.5s linear;
+    background-image: linear-gradient(45deg, red, green);
+}
+
+#footer_section{
+    background-color: #54851d;
+}
+
+.footer_container{
+    color: white;
+    margin: auto;
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+/* Media query */
+/* mobile screen */
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    body{
+        background-color: rgba(128, 128, 128, 0.363);
+    }
+}
+
+/* tab screen */
+@media only screen and (min-width: 768px) and (max-width: 967px) {
+    body{
+        background-color: rgba(52, 165, 37, 0.363);
+    }
+}

@@ -1,0 +1,30 @@
+.progress-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(currentColor calc(var(--percent) * 1%), #e6e6e6 0%);
+  position: relative;
+  margin: auto;
+  color: red;
+  --percent: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-circle .value {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.progress-circle.red { color: #eb1313; }
+.progress-circle.green { color: #34c759; }
+.progress-circle.yellow { color: #fdba04; }
+.progress-circle.blue { color: #049dff; }
