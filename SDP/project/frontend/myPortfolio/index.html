@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HM Jayed</title>
+
+    <!-- Title icon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <!-- Font awesome css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+    />
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.3.7/css/bootstrap.min.css" />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- menu bar -->
+      <menu class="container menu">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                class="img-fluid nav_img"
+                src="./images/logo.png"
+                alt="HM_Jayed"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div
+              class="collapse me-auto navbar-collapse justify-content-end gap-5"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#myProject">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#aboutMe">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="resume.pdf"
+                    class="btn bg-primary text-white"
+                    type="submit"
+                    download
+                  >
+                    Resume <i class="fa fa-download"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </menu>
+
+      <!-- banner -->
+      <section class="banner container-fluid">
+        <div class="row">
+          <div class="left p-4 col-lg-8 col-sm-12">
+            <h1>HI! <br />I'M HM Jayed Hossain</h1>
+            <p class="text-white">
+              Web Developer || django Developer || Programmer
+            </p>
+            <p class="text-white">
+              Versatile Computer Engineer with a robust background in software
+              development, programming, and web development. Expertise in
+              designing and implementing scalable applications, optimizing code
+              performance, and creating dynamic web solutions. Proven ability to
+              tackle complex technical challenges and deliver high-quality,
+              usercentric software products.
+            </p>
+            <a target="_blank" href="https://github.com/JayedHoshen"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/in/jayedhoshen/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a target="_blank" href="mailto:jayedkn64@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a target="_blank" href="https://www.facebook.com/MJayed11"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+          </div>
+          <div class="right p-4 col-lg-4 col-sm-12">
+            <img class="img-fluid" src="./images/banner.jpeg" alt="HM_Jayed" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- portfolio -->
+      <section id="myProject" class="container">
+        <h2 class="text-center text-white mt-4 mb-4">My Recent Projects</h2>
+        <div class="portfolio_item">
+          <div class="row">
+            <div class="left col-lg-6 col-sm-12">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./images/toDo1.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/toDo2.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/toDo1.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="right col-lg-6 col-sm-12">
+              <h4 class="text-danger">Simple To-Do Apps</h4>
+              <p class="port_text">
+                This application provides a clean and user-friendly way to
+                manage tasks by categorizing them into incomplete and completed
+                lists, with options to add, check off, and delete tasks.
+              </p>
+              <ul class="text-white Port_list">
+                <li>
+                  This website shows the interface of a To-Do List Web
+                  Application.
+                </li>
+                <li>
+                  This is my first dynamic website that i published in locally.
+                </li>
+                <li>This website have not any backend / admin part.</li>
+                <li>
+                  Front-end Design and Vanilla JavaScript Used in this Website
+                </li>
+                <li>Not have any Firebase Authentication in this Website</li>
+                <li>
+                  <span class="text-danger">Front-end Technology:</span> HTML,
+                  CSS, JavaScript (ES6)
+                </li>
+              </ul>
+              <div class="port_btn">
+                <a target="_blank" href="https://jayedhoshen.github.io/todo/"
+                  >Live Preview</a
+                >
+                <a target="_blank" href="https://github.com/JayedHoshen/todo"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio_item">
+          <div class="row">
+            <div class="left col-lg-6 col-sm-12">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./images/slide.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/services.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/testimonial.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="right col-lg-6 col-sm-12">
+              <h4 class="text-danger">Simple Landing Website</h4>
+              <p class="port_text">
+                This is Travel service Agency website.user can login via
+                Facebook sign-in,Google Sign-in and also Can Create an New
+                Account for use the services.user can Choice the service as
+                he/she want.
+              </p>
+              <ul class="text-white Port_list">
+                <li>You can see my website and suggest what's wrong.</li>
+                <li>This is my second website that i published in locally.</li>
+                <li>This website have not any backend / admin part.</li>
+                <li>Only Front-end Design Used in this Website</li>
+                <li>Not have any Firebase Authentication in this Website</li>
+                <li>
+                  <span class="text-danger">Front-end Technology:</span> HTML5,
+                  CSS3, JavaScript, JQuery plugin
+                </li>
+              </ul>
+              <div class="port_btn">
+                <a
+                  target="_blank"
+                  href="https://jayedhoshen.github.io/citi-project-4/"
+                  >Live Preview</a
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/JayedHoshen/citi-project-4"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio_item">
+          <div class="row">
+            <div class="left col-lg-6 col-sm-12">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./images/slide_2.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/port.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/skill_2.png"
+                      class="d-block w-100"
+                      alt="landingPage"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="right col-lg-6 col-sm-12">
+              <h4 class="text-danger">Portfolio website</h4>
+              <p class="port_text">
+                This is my simple HTML, CSS and Bootstrap based website. This is
+                first website that i published a local server.
+              </p>
+              <ul class="text-white Port_list">
+                <li>You can see my website and suggest what's wrong.</li>
+                <li>This is my first website that i published.</li>
+                <li>This website have not any backend / admin part.</li>
+                <li>Only Front-end Design Used in this Website</li>
+                <li>
+                  <span class="text-danger">Front-end Technology:</span> HTML,
+                  CSS, Bootstrap
+                </li>
+              </ul>
+              <div class="port_btn">
+                <a
+                  target="_blank"
+                  href="https://jayedhoshen.github.io/portfolio/"
+                  >Live Preview</a
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/JayedHoshen/portfolio"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skill and education -->
+      <section class="container" id="skill">
+        <div class="row skill_content d-flex align-items-center">
+          <div class="left col-lg-6 col-sm-12">
+            <h3 class="h1 text-center text-info">My Skills</h3>
+            <ul>
+              <li>
+                <p class="h3 text-danger mt-3 mb-3">Expertise:</p>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript (ES6)</span>
+                <span>JQuery</span>
+                <span>Bootstrap</span>
+                <span>React Js</span>
+                <span>React Bootstrap</span>
+                <span>Wordpress</span>
+              </li>
+              <li>
+                <p class="h3 text-danger mt-3 mb-3">Comfortable:</p>
+                <span>C/C++</span>
+                <span>MySQL</span>
+                <span>PL/SQL</span>
+                <span>Python</span>
+                <span>JavaScript</span>
+              </li>
+              <li>
+                <p class="h3 text-danger mt-3 mb-3">Familiar:</p>
+                <span>Java</span>
+                <span>php</span>
+                <span>C#</span>
+                <span>Machine Learning</span>
+                <span>Computer Architecture</span>
+              </li>
+              <li>
+                <p class="h3 text-danger mt-3 mb-3">Extra Skills:</p>
+                <span>SEO</span>
+                <span>Adobe Photoshop</span>
+                <span>Adobe Illustrator</span>
+                <span>Figma</span>
+                <span>Data Structure & Algorithm</span>
+                <span>Database Architecture</span>
+                <span>Competitive programming</span>
+                <span>Auto CAD 2D</span>
+                <span>Digital Marketing</span>
+                <span>Land-Survey Instructor</span>
+              </li>
+              <li>
+                <p class="h3 text-danger mt-3 mb-3">Tools:</p>
+                <span>Git</span>
+                <span>Notepad++</span>
+                <span>VS Code</span>
+                <span>Code Blocks</span>
+                <span>Chrome Dev Tool</span>
+                <span>MS Office</span>
+                <span>Anaconda</span>
+                <span>Jupiter NoteBook</span>
+              </li>
+            </ul>
+          </div>
+          <div
+            id="aboutMe"
+            class="right mt-4 mb-4 text-info col-lg-6 col-sm-12 text-center"
+          >
+            <h3 class="h1">My Education</h3>
+            <h4 class="text-danger h2 mt-4">Under Graduation</h4>
+            <p>
+              B.Sc in Computer Science and Engineering, Dhaka University of
+              Engineering & Technology, Gazipur.
+            </p>
+            <p>December 2023 - Current</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="container text-center contact_part">
+        <h2 class="text-white">Contact with Me</h2>
+        <form class="contact_form">
+          <input
+            class="contact_field"
+            type="text"
+            placeholder="Type your name"
+            required
+          />
+          <input
+            class="contact_field"
+            type="email"
+            placeholder="Type your Email"
+            required
+          />
+          <textarea
+            class="contact_field"
+            rows="4"
+            placeholder="Type your message"
+          ></textarea>
+          <button class="contact_field btn bg-info text-white h2">
+            Send Message
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-white text-center mt-5 p-3 border-1 border-top">
+      <div class="container footer_container">
+        <p>Copyright © 2025 | HM Jayed</p>
+        <p>DUET, Gazipur</p>
+        <a target="_blank" href="https://github.com/JayedHoshen"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a target="_blank" href="https://www.linkedin.com/in/jayedhoshen/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a target="_blank" href="mailto:jayedkn64@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a target="_blank" href="https://www.facebook.com/MJayed11"
+          ><i class="fa-brands fa-square-facebook"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- all java script -->
+    <script src="bootstrap-5.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

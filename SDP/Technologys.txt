@@ -1,0 +1,8 @@
+1) Front-End Part: 
+	-> HTML
+	-> CSS
+	-> Bootstrap
+	-> JavaScript (ES6 and DOM)
+	-> API (FakeStore, MealDB, Cocktail)
+2) Back-End Part:
+	-> 

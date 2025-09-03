@@ -1,0 +1,55 @@
+/* ========== Responsive in mobile device ============ */
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .container{
+        width: 400px;
+    }
+     .nav_container{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .banner{
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo_container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .service_content .service_card{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    } 
+
+    #contact_section{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #contact_section img{
+        width: 400px;
+    }
+
+    #contact_section .left {
+        width: 100%;
+    } 
+    #contact_section .right{
+        width: 100%;
+    }
+
+    #contact_section .right p, h3{
+        padding-top: 20px;
+    }
+
+    .footer_container{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+}

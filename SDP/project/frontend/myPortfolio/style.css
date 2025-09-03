@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Open+Sans:wght@400;500&display=swap");
+
+:root {
+  --bodyFont: "Open Sans", sans-serif;
+  --titleFont: "Barlow", sans-serif;
+}
+
+/* ========= Common CSS ======== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  font-family: var(--bodyFont);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--titleFont);
+  font-weight: 600;
+}
+
+:focus {
+  outline: 0;
+}
+
+/* ========= Header CSS ======== */
+.nav_img {
+  height: 60px;
+}
+
+.banner .left h1 {
+  color: #00ffff;
+  text-transform: uppercase;
+}
+
+.banner .left a i {
+  color: #00ffff;
+  padding-right: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  transition: all 0.4s ease;
+}
+
+.banner .left a i:hover {
+  color: white;
+  transition: all 0.4s ease;
+}
+
+/* ========= Portfolio CSS ======== */
+.portfolio_item {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #00ffff;
+  box-shadow: 2px 2px 10px white;
+  transition: all 0.4s linear;
+}
+
+.portfolio_item:hover {
+  box-shadow: -2px -2px 10px white;
+  transition: all 0.4s linear;
+}
+
+.portfolio_item .right .port_btn a {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-right: 10px;
+  background-color: #0069d9;
+  transition: all 0.4s linear;
+}
+
+.portfolio_item .right .port_btn a:hover {
+  color: #000;
+  background-color: white;
+  transition: all 0.4s linear;
+}
+
+.portfolio_item .Port_list {
+  list-style: disc;
+}
+
+.portfolio_item .port_text {
+  color: #00ffff;
+}
+
+/* ========= skill and education CSS ======== */
+
+#skill .left ul li span {
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 10px 10px 0px 0px;
+  background-color: #6c757d;
+}
+
+/* ========= contact CSS ======== */
+
+.contact_part {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact_part .contact_form {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #00ffff;
+  box-shadow: 2px 2px 10px white;
+  transition: all 0.4s linear;
+}
+
+.contact_part .contact_form:hover {
+  box-shadow: -2px -2px 10px white;
+  transition: all 0.4s linear;
+}
+
+.contact_part .contact_form .contact_field {
+  width: 100%;
+  font-size: 24px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  color: white;
+  box-shadow: 1px 1px 10px #fff;
+  background-color: #6c757d;
+  transition: all 0.4s linear;
+}
+
+.contact_part .contact_form .contact_field:hover {
+  box-shadow: -3px -3px 10px #fff;
+  transition: all 0.4s linear;
+}
+
+/* ========= footer CSS ======== */
+.footer_container a {
+  font-size: 25px;
+  margin-right: 10px;
+  transition: all 0.4s linear;
+}
+
+.footer_container a:hover {
+  color: white;
+  transition: all 0.4s linear;
+}
+
+/* ========= Responsive: For mobile device ======== */
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .banner {
+    text-align: center;
+  }
+
+  .portfolio_item .right h4 {
+    margin-top: 10px;
+  }
+
+  .contact_part {
+    width: 90vw;
+  }
+}

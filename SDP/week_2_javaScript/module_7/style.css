@@ -1,0 +1,30 @@
+.box_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+#inputText{
+    padding: 5px;
+}
+
+.userContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user {
+    padding: 20px;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
