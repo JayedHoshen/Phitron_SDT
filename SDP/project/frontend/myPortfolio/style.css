@@ -114,17 +114,16 @@ h6 {
 /* ========= contact CSS ======== */
 
 .contact_part {
-  width: 50vw;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 60vw;
+  margin: 20px auto;
 }
 
 .contact_part .contact_form {
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
-  border: 1px solid #00ffff;
+  border: 1px solid #000;
+  background-color: white;
   box-shadow: 2px 2px 10px white;
   transition: all 0.4s linear;
 }
@@ -136,19 +135,13 @@ h6 {
 
 .contact_part .contact_form .contact_field {
   width: 100%;
+  border: none;
+  color: black;
   font-size: 24px;
   margin: 10px 0px;
-  border-radius: 10px;
   padding: 15px 20px;
-  color: white;
-  box-shadow: 1px 1px 10px #fff;
-  background-color: #6c757d;
-  transition: all 0.4s linear;
-}
-
-.contact_part .contact_form .contact_field:hover {
-  box-shadow: -3px -3px 10px #fff;
-  transition: all 0.4s linear;
+  border-radius: 8px;
+  background-color: #d4d5d5;
 }
 
 /* ========= footer CSS ======== */
