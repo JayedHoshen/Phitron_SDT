@@ -3,6 +3,6 @@
 	-> CSS
 	-> Bootstrap
 	-> JavaScript (ES6 and DOM)
-	-> API (FakeStore, MealDB, Cocktail)
+	-> Fetch API (FakeStore, MealDB, Cocktail)
 2) Back-End Part:
 	-> 

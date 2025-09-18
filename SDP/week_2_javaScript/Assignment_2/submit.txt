@@ -1,8 +1,8 @@
-Practice Day 1 Github Repo Link: 
-Practice Day 1 Live Link: (if any) 
+Practice Day 1 Github Repo Link: https://github.com/JayedHoshen/Phitron_SDT/tree/main/SDP/week_2_javaScript/module_6_5
+Practice Day 1 Live Link: not any
 
-Practice Day 2 Github Repo Link:
-Practice Day 2 Live Link: (if any)
+Practice Day 2 Github Repo Link: https://github.com/JayedHoshen/meadbApi
+Practice Day 2 Live Link: https://jayedhoshen.github.io/meadbApi/
 
-Assignment 02 Github Repo Link:
-Assignment 02 Live Link: (if any)
+Assignment 02 Github Repo Link: https://github.com/JayedHoshen/cocktailApi
+Assignment 02 Live Link: https://jayedhoshen.github.io/cocktailApi/

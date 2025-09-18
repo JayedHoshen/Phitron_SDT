@@ -3,7 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cocktail_API</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
+
+    <!-- all css link -->
+    <link rel="stylesheet" href="bootstrap-5.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- searching section -->
+    <header>
+      <nav class="navbar navbar-light bg-light fixed-top mb-md-5">
+        <div
+          class="container-fluid row d-flex justify-content-between align-items-center"
+        >
+          <a class="text-center col-lg-3 col-sm-12 navbar-brand navLogo">
+            <img class="img-fluid" src="images/logo.png" alt="cocktail_api" />
+          </a>
+          <form class="col-lg-8 col-sm-12 d-flex mt-2">
+            <input
+              id="searchBox"
+              class="form-control me-3 p-2"
+              type="search"
+              placeholder="Search for drinks...."
+              aria-label="Search"
+              required
+            />
+            <button
+              id="searchBtn"
+              class="btn btn-outline-success"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main content -->
+    <main>
+      <section class="container-fluid mt-5 pt-5 mb-3">
+        <div class="mainContent row">
+          <div
+            id="contentContainer"
+            class="contentContainer mt-2 text-center col-lg-9 col-sm-12"
+          >
+            <h2 class="bg-success p-3 rounded mt-3">
+              Search your favourite drinks...
+            </h2>
+          </div>
+          <div id="cartContainer" class="cartContainer col-lg-3 col-sm-12">
+            <div id="cartContent" class="cartContent p-3">
+              <h3>Total Cart:<span id="count">0</span></h3>
+              <p id="cartTitle"><span>Img</span> <span>Name</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- add modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+          >
+            <div id="modalContainer" class="modal-content"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- all script link -->
+    <script src="bootstrap-5.3.7/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.3.7/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  box-sizing: border-box;
+}
+/* ------------ common css end ------- */
+
+.test {
+  width: 960px;
+  display: flex;
+  margin: 50px auto;
+  border: 1px solid green;
+}
+
+.test .box {
+  height: 150px;
+  border: 2px solid black;
+  width: calc((100% - 30px) / 3);
+}
+
+.test .one {
+  background-color: #95a5a6;
+}
+
+.test .two {
+  margin: 0px 15px;
+  background-color: #3498db;
+}
+.test .three {
+  background-color: #27ae60;
+}
